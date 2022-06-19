@@ -1,7 +1,9 @@
+import { Typing } from './pages/Typing';
+
 function App() {
   return (
     <div>
-      <p>app</p>
+      <Typing />
     </div>
   );
 }

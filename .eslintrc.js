@@ -22,6 +22,8 @@ module.exports = {
     '@typescript-eslint',
   ],
   rules: {
+    "arrow-body-style": "off",
+    "import/prefer-default-export": "off",
     "react/react-in-jsx-scope": "off",
     "import/extensions": [
       "error",
