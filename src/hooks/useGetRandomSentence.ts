@@ -1,8 +1,8 @@
 import axios from "axios";
 import { useCallback, useState } from "react";
 
-import { RANDOM_QUOTE_API } from "../../services/api/RandomQuoteApi";
-import { Quote } from "../../types/Quote";
+import { RANDOM_QUOTE_API } from "../services/api/RandomQuoteApi";
+import { Quote } from "../types/Quote";
 
 export const useGetRandomSentence = () => {
   const [sentence, setSentence] = useState<string>('');
